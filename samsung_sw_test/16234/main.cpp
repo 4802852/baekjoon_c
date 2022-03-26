@@ -76,7 +76,7 @@ bool can_move(int r, int c)
 
 int main(int argc, char** argv)
 {	
-	freopen("input.txt", "r", stdin);
+	// freopen("input.txt", "r", stdin);
 
 	scanf("%d %d %d", &N, &L, &R);
 	
