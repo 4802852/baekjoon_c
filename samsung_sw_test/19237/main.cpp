@@ -116,6 +116,7 @@ void SharkSmell()
 }
 
 
+// 살아있는 상어의 수를 카운트 해주는 함수
 int CountLivingShark()
 {
 	int cnt = 0;
@@ -126,7 +127,6 @@ int CountLivingShark()
 			cnt++;
 		}
 	}
-	printf("%d\n", cnt);
 	return (cnt);
 }
 
